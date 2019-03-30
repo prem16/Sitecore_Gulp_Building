@@ -1,0 +1,8 @@
+// Sitecore Helix solution Gulp building
+
+Configuring Gulp: -
+Go to Habitat package and copy the folder gulp-config.js, gulpfile.js, package.json and scripts folder and paste it at C:\Source - Local\ProjectName
+From Visual Studio, add gulp-config.js, gulpfile.js, package.json as existing items to the Configuration Solution folder created earlier.
+To install the Node modules, open cmd promt in admin right at location C:\Source - Local\ProjectName and run command “npm install”
+If command is executed successfully, you should be able to check the gulf task from our Task Runner Explorer.
+Run the command one by one to perform required operations. For example, click on Publish-All-Projects and you should all the dlls published to the deployed folder at location C:\inetpub\wwwroot\AandH\Website\bin.
